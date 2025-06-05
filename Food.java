@@ -6,9 +6,8 @@ public class Food {
     int carbs;
     int fat;
 
-    public Food(String name, int quantity, int calories, int protein, int carbs, int fat) {
+    public Food(String name, int calories, int protein, int carbs, int fat) {
         this.name = name;
-        this.quantity = quantity;
         this.calories = calories;
         this.protein = protein;
         this.carbs = carbs;
